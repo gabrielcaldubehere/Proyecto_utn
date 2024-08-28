@@ -1,0 +1,40 @@
+section {
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.prod div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: #dbd9d9;
+
+
+}
+
+.prod img {
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+
+
+}
+
+.prod p {
+
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.prod div div {
+    display: none;
+}

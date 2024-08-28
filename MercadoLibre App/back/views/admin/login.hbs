@@ -1,0 +1,13 @@
+<h2 class="login">Inicio de sesion</h2>
+
+<div class="container">
+  <form action="/admin/login" method="post">
+    <input type="text" id="inputUser" placeholder="usuario" name="usuario" />
+    <input type="text" id="inputPassword" placeholder="password" name="password" />
+    <button class="btn btn-primary" type="submit" id="botonIngreso">Ingresar</button>
+  </form>
+  {{#if error}}
+  <p>Usuario y/o contraseña incorrectos</p>
+  {{/if}}
+
+</div>

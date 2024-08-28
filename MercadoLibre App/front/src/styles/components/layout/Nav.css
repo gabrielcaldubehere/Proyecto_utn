@@ -1,0 +1,31 @@
+.containernav {
+    background: yellow;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.tabs:hover {
+    background-color: whitesmoke;
+    color: blue;
+}

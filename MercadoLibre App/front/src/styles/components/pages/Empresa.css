@@ -1,0 +1,23 @@
+.nosotros {
+    min-height: 100vh;
+}
+
+
+h2 {
+    font-size: 2rem;
+    color: blue;
+}
+
+p {
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+
+
+}
+
+.imgemp {
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+}

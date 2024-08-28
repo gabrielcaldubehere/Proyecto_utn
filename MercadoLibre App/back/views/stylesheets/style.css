@@ -1,0 +1,49 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.header {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    height: 110px;
+    width: 100%;
+}
+
+#mercadolibreimg {
+    width: 100px;
+    height: 80px;
+    padding-top: 20px;
+}
+
+h1 {
+    color: blue;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 3rem;
+
+
+}
+
+
+
+
+footer {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+#botonIngreso {
+    background-color: red;
+}
